@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Nanoleaf Challenge</string>
+    <string name="number_of_colors">Number of colors</string>
+    <string name="number_of_each_lightbulb_colors">Number of lightbulbs of each color</string>
+    <string name="number_of_lightbulbs_to_pick">Numbers of lightbulbs to pick</string>
+    <string name="number_of_simulations_to_run">Number of simulations to run</string>
+    <string name="run_simulation">Run Simulation</string>
+    <string name="output">Output</string>
+    <string name="total_number_of_lightbulbs">Total number of lightbulbs: %1$s</string>
+    <string name="lightbulb_to_pick_exceed_total_lightbulbs">Number should be less than or equal to total number of lightbulbs</string>
+    <string name="field_is_mandatory">Field is mandatory</string>
+    <string name="simulation_progress">Simulation progress %1$d</string>
+    <string name="estimated_number_of_unique_colors">Estimated number of unique colors in next simulation: %1$s</string>
+    <string name="number_of_unique_colors">Number of unique colors in sumulation # %1$d : %2$d</string>
+</resources>
