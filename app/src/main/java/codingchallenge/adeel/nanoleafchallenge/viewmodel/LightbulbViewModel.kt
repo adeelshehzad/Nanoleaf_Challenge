@@ -99,15 +99,7 @@ class LightbulbViewModel : ViewModel() {
         lightbulbsWithColor: List<Lightbulb>
     ): Int {
         return withContext(Dispatchers.IO) {
-            val lightbulbsPicked =
-                lightbulbsWithColor.shuffled().take(numberOfLightbulbToPick)
-
-            val uniqueColors = mutableSetOf<Int>()
-            lightbulbsPicked.forEach {
-                uniqueColors.add(it.lightbulbColor)
-            }
-
-            uniqueColors.size
+            lightbulbsWithColor.shuffled().take(numberOfLightbulbToPick).distinct().size
         }
     }
 
